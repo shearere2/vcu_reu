@@ -1,7 +1,6 @@
 import pandas as pd
 import nltk
 from nltk.sentiment import sentiment_analyzer
-from nltk import classify
 from nltk.tokenize.api import StringTokenizer
 
 def analyze_sentiment(sentence:str):
